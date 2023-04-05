@@ -14,10 +14,11 @@
     border-radius: 20px;
 }
 
+#clickbite{
+    font-weight: bold;
 
-footer{
-    text-align: right;
 }
+
 
 main{
     width: 100%;
@@ -34,6 +35,7 @@ h1{
     text-align: center;
     font-size: 100px;
     font-weight: bolder;
+    background-color: lightgray;
 }
 
 .imageBox{
@@ -55,5 +57,13 @@ h1{
     }
 }
 #folgen{
-
+    font-size: 30px;
+    font-weight: bolder;
 }
+footer{
+    justify-content: right;
+    text-align: right;
+    align-items: center;
+    vertical-align: center;
+    display: flex;
+ }
