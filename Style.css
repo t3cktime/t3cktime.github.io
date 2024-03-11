@@ -1,5 +1,8 @@
-*{font-family: 'Montserrat', sans-serif;
-font-size: 18px}
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: lightgray;
+}
 
 body{
     width: 100%;
@@ -29,6 +32,8 @@ main{
 .centerBox{
     max-width: 80%;
 }
+
+
 
 h1{
     text-align: center;
@@ -81,6 +86,11 @@ h4{
         display: grid;
         grid-template-columns: 50% 50%;
     }
+    .splitter{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
 }
 @media only screen and (min-width: 1600px) {
     .statementBox{
@@ -90,12 +100,31 @@ h4{
     }
 }
 .statement{
-    margin-left: 10px;
+    margin-left: 5%;
 }
 
 #folgen{
     font-size: 30px;
     font-weight: bolder;
+}
+
+#bandphoto{
+    max-width: 100% ;
+}
+
+#video{
+    max-width: 100%;
+    margin-top: 5%;
+}
+
+#anstehendegigs{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#release{
+   color: #ae3b7b;
+   font-size: 40px;
 }
 footer{
     margin-right: 50px;
@@ -111,12 +140,13 @@ a{
 }
 nav{
     font-size: 130%;
-    background-color:#f5aeae;
-    border-bottom: 2px solid lightcoral;
-    border-top: 2px solid lightcoral;
+    background-color:#c07ba2;
+    border-bottom: 2px solid #ae3b7b;
+    border-top: 2px solid #ae3b7b;
 }
 .link{
     margin-left:5px;
+    background-color:#c07ba2;
 }
 .link:hover{
     font-weight: bold;
